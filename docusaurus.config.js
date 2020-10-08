@@ -1,12 +1,12 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Substrate by Example',
+  tagline: 'Learn Substrate by Example!',
+  url: 'https://shawntabrizi.github.io',
+  baseUrl: '/substrate-by-example/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'shawntabrizi', // Usually your GitHub org/user name.
+  projectName: 'substrate-by-example', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
