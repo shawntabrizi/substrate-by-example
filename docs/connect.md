@@ -3,15 +3,16 @@ id: connect
 title: Connect To Polkadot
 ---
 
-import { ApiPromise, WsProvider } from '@polkadot/api';
+<!-- import { ApiPromise, WsProvider } from '@polkadot/api';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+import { useEffect } from 'react';
 
-export const wsProvider = new WsProvider('wss://rpc.polkadot.io');
+export const Main = async () => {
+	const wsProvider = new WsProvider('wss://rpc.polkadot.io');
+	const api = await ApiPromise.create({ provider: wsProvider });
 
-export const listenBlockNumber = ApiPromise.create({ provider: wsProvider }).then(async (api) => {
-  const unsub = await api.rpc.chain.subscribeNewHeads((header) => {
-    console.log("last block was", header.number);
-    document.getElementById("blocknumber").innerText = header.number;
-  });
-});
+	return ()
+} -->
+
 
 Last block was: #<span id="blocknumber"></span>

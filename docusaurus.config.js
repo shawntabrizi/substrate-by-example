@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   title: 'Substrate by Example',
   tagline: 'Learn Substrate by Example!',
@@ -101,4 +103,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: [path.resolve(__dirname, './plugins/docusaurus-plugin-polkadot-js')],
 };

@@ -1,7 +1,7 @@
 // Add utterances comments at the bottom of `DocItem`.
 
 import React, { useEffect } from 'react';
-import OriginalDocItem from "@theme-original/DocItem";
+import ThemeSelector from "../ThemeSelector";
 
 export default function CustomDocItem(props) {
 	useEffect(() => {
@@ -20,7 +20,7 @@ export default function CustomDocItem(props) {
 
 	return (
 		<>
-			<OriginalDocItem {...props} />
+			<ThemeSelector {...props} />
 			<div id="comment-system"></div>
 		</>
 	);

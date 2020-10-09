@@ -1,0 +1,31 @@
+/* Add separation between the columns */
+.doc {
+    border-right: 1px solid rgba(0,0,0,0.07);
+    padding-right: 10px;
+}
+
+/* Responsive Two Column Layout */
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1024px) {
+    .column {
+        width: 100%;
+        overflow-y: initial;
+        height: initial;
+    }
+}
+/* End Responsive Layout */
