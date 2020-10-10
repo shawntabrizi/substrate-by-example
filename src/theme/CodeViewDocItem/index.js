@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import OriginalDocItem from "@theme-original/DocItem";
-import styles from "./style.module.css"
+import styles from "./styles.module.css"
 import Editor from "../../components/Editor"
 import useBaseUrl from "@docusaurus/useBaseUrl";
 

@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import useThemeContext from '@theme/hooks/useThemeContext';
+import styles from "./styles.module.css";
+import "./styles.css";
 
 function Comments(props) {
 	const { isDarkTheme } = useThemeContext();
@@ -16,11 +18,12 @@ function Comments(props) {
 		script.crossOrigin = "anonymous";
 		script.async = true;
 
-		document.getElementById("comment-system").appendChild(script);
+		document.getElementById("comment-container").appendChild(script);
 	}, []);
 
+
 	return (
-		<div id="comment-system"></div>
+		<div id="comment-container" className={'container ' + styles.commentWrapper}></div>
 	);
 }
 
