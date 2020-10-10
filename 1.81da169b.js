@@ -13,7 +13,7 @@ __webpack_require__.d(__webpack_exports__, "conf", function() { return /* bindin
 __webpack_require__.d(__webpack_exports__, "language", function() { return /* binding */ javascript_language; });
 
 // EXTERNAL MODULE: ./node_modules/monaco-editor/esm/vs/basic-languages/fillers/monaco-editor-core.js
-var monaco_editor_core = __webpack_require__(230);
+var monaco_editor_core = __webpack_require__(231);
 
 // CONCATENATED MODULE: ./node_modules/monaco-editor/esm/vs/basic-languages/typescript/typescript.js
 /*---------------------------------------------------------------------------------------------

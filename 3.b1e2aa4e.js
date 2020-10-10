@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, "setupMode", function() { return /* binding */ setupMode; });
 
 // EXTERNAL MODULE: ./node_modules/monaco-editor/esm/vs/language/json/fillers/monaco-editor-core.js
-var monaco_editor_core = __webpack_require__(217);
+var monaco_editor_core = __webpack_require__(218);
 
 // CONCATENATED MODULE: ./node_modules/monaco-editor/esm/vs/language/json/workerManager.js
 /*---------------------------------------------------------------------------------------------
