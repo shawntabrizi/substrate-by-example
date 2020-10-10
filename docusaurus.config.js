@@ -103,5 +103,8 @@ module.exports = {
       },
     ],
   ],
-  plugins: [path.resolve(__dirname, './plugins/docusaurus-plugin-polkadot-js')],
+  plugins: [
+    path.resolve(__dirname, './plugins/polkadot-js'),
+    path.resolve(__dirname, './plugins/monaco-editor')
+  ],
 };

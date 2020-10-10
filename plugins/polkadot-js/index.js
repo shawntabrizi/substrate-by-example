@@ -1,6 +1,6 @@
 module.exports = function (context, options) {
 	return {
-		name: 'docusaurus-plugin',
+		name: 'docusaurus-plugin-polkadot-js',
 		injectHtmlTags() {
 			return {
 				headTags: [],
