@@ -2,6 +2,7 @@
 .doc {
     border-right: 1px solid rgba(0,0,0,0.07);
     padding-right: 10px;
+    overflow-y: scroll;
 }
 
 /* Responsive Two Column Layout */
@@ -9,8 +10,8 @@
 .column {
     float: left;
     width: 50%;
-    overflow-y: scroll;
-    height: 100vh;
+    /* 60 px for navbar */
+    height: calc(100vh - 60px);
 }
 
 /* Clear floats after the columns */
