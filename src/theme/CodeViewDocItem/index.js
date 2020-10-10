@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import OriginalDocItem from "@theme-original/DocItem";
 import styles from "./style.module.css"
 import Editor from "../../components/editor"
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 const path = require('path');
 
@@ -13,8 +14,9 @@ export default function CodeViewDocItem(props) {
 	const [codeText, setCodeText] = useState("Loading...");
 	const mountedRef = useRef(true)
 
+	const codePath = useBaseUrl(code);
+
 	async function getCode() {
-		const codePath = path.resolve(__dirname, code);
 		const response = await fetch(codePath);
 		const text = await response.text();
 
