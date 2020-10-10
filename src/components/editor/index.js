@@ -11,6 +11,7 @@ const defaultOptions = {
 	scrollBeyondLastLine: false,
 	smoothScrolling: true,
 	fontFamily: "Menlo, Monaco, Consolas, 'Courier New', monospace",
+	scrollbar: { alwaysConsumeMouseWheel: false},
 };
 
 function Editor(props) {

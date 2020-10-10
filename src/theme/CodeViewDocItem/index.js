@@ -40,10 +40,10 @@ export default function CodeViewDocItem(props) {
 	return (
 		<>
 			<div className={styles.row}>
-				<div className={styles.column}>
+				<div className={[styles.column, styles.doc].join(' ')}>
 					<OriginalDocItem {...props} />
 				</div>
-				<div className={styles.column}>
+				<div className={[styles.column, styles.editor].join(' ')}>
 					<Editor
 						value={codeText}
 					/>

@@ -25,6 +25,11 @@
     .column {
         width: 100%;
         overflow-y: initial;
+    }
+    .editor{
+        height: 80vh;
+    }
+    .doc{
         height: initial;
     }
 }
