@@ -1,12 +1,3 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
-
 import React, { Suspense, lazy, useRef, useCallback } from 'react';
 import useThemeContext from '@theme/hooks/useThemeContext';
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
