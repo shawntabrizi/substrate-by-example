@@ -10,10 +10,15 @@ module.exports = {
   organizationName: 'shawntabrizi', // Usually your GitHub org/user name.
   projectName: 'substrate-by-example', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
-      title: 'My Site',
+      title: 'Substrate by Example',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Substrate by Example',
         src: 'img/logo.svg',
       },
       items: [
@@ -23,7 +28,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/shawntabrizi/substrate-by-example',
           label: 'GitHub',
@@ -38,12 +43,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Welcome',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Demo',
+              to: 'docs/demo',
             },
           ],
         },
@@ -55,10 +60,6 @@ module.exports = {
               href: 'https://stackoverflow.com/questions/tagged/substrate',
             },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/rEfv8tJ',
-            },
-            {
               label: 'Twitter',
               href: 'https://twitter.com/shawntabrizi',
             },
@@ -68,12 +69,12 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/shawntabrizi/substrate-by-example',
+            },
+            {
+              label: 'Shawn Tabrizi',
+              href: 'https://shawntabrizi.com',
             },
           ],
         },
