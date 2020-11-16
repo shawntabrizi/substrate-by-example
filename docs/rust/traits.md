@@ -1,0 +1,4 @@
+---
+id: traits
+title: Traits
+---
